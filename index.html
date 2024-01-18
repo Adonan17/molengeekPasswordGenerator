@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./public/style/app.css">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
+
+</head>
+<body>
+    <div id="generator">
+        <div id="title">Password Generator</div>
+        <div id="yourPassword"></div>
+        <div class="pwLength">Password Length <input type="number" id="pwLength" max="10" min="1"></div>
+        <div class="pwUpperCase">Password Uppercase Letters <input type="checkbox" id="pwUpperCase"></div>
+        <div class="pwLowerCase">Password Lowercase Letters <input type="checkbox" id="pwLowerCase"></div>
+        <div class="pwNumbers">Include Numbers <input type="checkbox" id="pwNumbers"></div>
+        <div class="pwSymbols">Include Symbols <input type="checkbox" id="pwSymbols"></div>
+        <button id="generate">Generate Password</button>
+    </div>
+    <script src="./public/js/main.js"></script>
+</body>
+</html>
