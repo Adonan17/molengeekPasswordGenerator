@@ -31,7 +31,12 @@ body {
   background-color: #FAEDCD;
   gap: 10px;
 }
-#generator #yourPassword {
+#generator .pwAndCopy {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+#generator .pwAndCopy #yourPassword {
   width: 250px;
   height: 30px;
   display: flex;
@@ -40,6 +45,13 @@ body {
   background-color: #FEFAE0;
   border-radius: 10px;
   border: 2px solid #D4A373;
+}
+#generator .pwAndCopy i {
+  font-size: 30px;
+  color: #D4A373;
+}
+#generator .pwAndCopy i:hover {
+  cursor: pointer;
 }
 #generator #title {
   width: max-content;
