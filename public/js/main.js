@@ -32,7 +32,7 @@ generateBtn.addEventListener('click', () => {
     }
 
     for (let i = 0; i < pwLength.value; i++) {
-        randomIndex = Math.floor(Math.random() * password.join('').length);
+        randomIndex = Math.floor(Math.random() * password.join('').length-1);
         passwordResult.push(password.join('')[randomIndex]);
     }
     yourPassword.innerHTML = passwordResult.join('')
